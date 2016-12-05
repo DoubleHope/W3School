@@ -1,0 +1,181 @@
+@charset "utf-8";
+/* CSS Document */
+*{ margin:0; padding:0;}
+.wrap{ 
+	width:780px; 
+	margin:0 auto; 
+	border-left:#CCC solid 1px; 
+	border-right:#ccc solid 1px; 
+	padding:0 10px; 
+	overflow:hidden; 
+	margin-bottom:10px;
+	}
+/*头部*/
+.header{ 
+	overflow:hidden; 
+	font-family:"宋体";
+	}
+.header .current{ 
+	border-bottom:#CC0000 solid 2px;
+	}
+.header h1{ 
+	background-color:#3399CC; 
+	padding:20px 30px; 
+	color:#FFF;
+	}
+.header li{ 
+	float:left; 
+	list-style:none; 
+	height:50px; 
+	line-height:50px; 
+	text-indent:15px; 
+	padding:0 20px;
+	}
+
+.header li a{ 
+	text-decoration:none; 
+	font-size:18px; 
+	color:#666; 
+	font-weight:100;
+	}
+.header a:hover{ 
+	border-bottom:#CC0000 solid 2px;
+	}
+/*左边内容*/
+.sidebar-L { 
+	float:left;
+	}
+.sidebar-L dt{ 
+	width:141px; 
+	padding:10px 15px; 
+	display:block; 
+	background-color:#3399CC; 
+	color:#FFF; 
+	margin:10px 0; 
+	font-weight:bold; 
+	font-size:13px;
+	}
+.sidebar-L dd{ 
+	text-indent:15px; 
+	font-size:12px;
+	line-height:1.5em;
+	}
+.sidebar-L a{ 
+	text-decoration:none; 
+	color:#333333;
+	}
+.sidebar-L a:hover{ 
+	text-decoration:underline; 
+	color:#FF0000;
+	}
+.sidebar-L .current-2{ 
+	color:#FF0000;
+	}
+
+/*右边内容*/
+.sidebar-R{ 
+	width:590px; 
+	margin:0 189px;
+	}
+.css h2{ 
+	padding:10px 0; 
+	border-bottom:#CCC solid 1px;
+	}
+.css li{ 
+	float:left; 
+	list-style:none; 
+	padding:10px 15px;
+	}
+.css li a{ 
+	text-decoration:none; 
+	display:block; 
+	background:#F3F3F3; 
+	padding:5px 15px; 
+	color:#666; 
+	font-size:12px;
+	}
+.css li a:hover{ 
+	color:#333333;
+	}
+
+
+.content{ 
+	width:590px;
+	border-top:#CCC solid 2px; 
+	float:left; 
+	border-bottom: #999 solid 1px; 
+	padding-bottom:10px;
+	}
+.content dl{ 
+	line-height:2em; 
+	font-size:12px; 
+	padding:10px 0; 
+	border-bottom:#CCC dashed 1px;
+	}
+.content dl dt{ 
+	font-weight:bold;
+	}
+.content #id , #ti{ 
+	font-size:12px; 
+	color:#900;
+	}
+.content a:hover{ 
+	text-decoration:none;
+	}
+.content h3{ 
+	font-weight:bold; 
+	font-size:14px; 
+	padding-top:15px;
+	}
+.content ul h4{ 
+	font-size:13px; 
+	padding:5px 0;
+	}
+.content ul li{ 
+	list-style:none; 
+	padding:5px 0;
+	}
+.content ul li p{ 
+	font-size:12px; 
+	padding:5px 0;
+	}
+
+.css-2 li{ 
+	float:left; 
+	list-style:none; 
+	padding:10px 15px;
+	}
+.css-2 li a{ 
+	text-decoration:none; 
+	display:block; 
+	background:#F3F3F3; 
+	padding:5px 15px; 
+	color:#666; 
+	font-size:12px;
+	}
+.css-2 li a:hover{ 
+	color:#333333;
+	}
+
+#p{ 
+	width:590px; 
+	border-top:#999 solid 2px; 
+	float:left; 
+	font-size:12px; 
+	padding:10px 0; 
+	border-bottom:#CCC dashed 1px; 
+	color:#666;
+	}
+/*尾部*/
+.footer{ 
+	float:left; 
+	width:780px; 
+	background-color:#DDDDDD; 
+	padding:15px 0; 
+	margin-top:20px;
+	}
+.footer p{ 
+	font-size:12px; 
+	color:#666; 
+	text-align:center;
+	}
